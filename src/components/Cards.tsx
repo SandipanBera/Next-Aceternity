@@ -2,7 +2,7 @@ import { HoverEffect } from "./ui/card-hover";
 
 export function Cards() {
   return (
-    <div className="max-w-5xl mx-auto px-8 h-max flex flex-col flex-wrap content-evenly">
+    <div className="max-w-5xl mx-auto px-8 min-h-screen flex flex-col flex-wrap justify-center">
       <div className="text-center text-3xl font-semibold">Our Courses</div>
       <HoverEffect items={projects} />
     </div>
